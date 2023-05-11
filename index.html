@@ -9,26 +9,27 @@
 </head>
 <body>
     <div id="bgImg"></div>
-    <form id="login-form" class="hidden">
-        <input required maxlength="15" type="text" placeholder="Hello, What's your name?"/>
-        <input type="submit" value="Log In">
+    <div id="login-word" class="hidden lgw">Hello, What's your name?</div>
+    <form id="login-form" class="hidden lgf">
+        <input id="name_input" required maxlength="10" type="text"/>
     </form>
+
     <div id="clock" class="hidden ck">00:00:00</div>
     <div id="greeting" class="hidden gt"></div>
 
     <div id="todo-word" class="hidden todow">What are you doing today?</div>
     <form id="todo-form" class="hidden todof" width="100px">
-        <input id="input" type="text"/>
+        <input id="todo_input" type="text"/>
     </form>
     <ul id="todo-list" class="hidden todol"></ul>
 
 
-    <div id="quote" class="hidden qt">
+    <div id="quote" class="qt">
         <div></div>
         <div></div>
     </div>
 
-    <div id="weather" class="hidden wt">
+    <div id="weather" class="wt">
         <div></div>
         <div></div>
     </div>
