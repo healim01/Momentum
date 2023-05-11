@@ -21,6 +21,23 @@ body {
     object-fit:cover;
 }
 
+.lgw {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+    font-weight: bold;
+}
+.lgf {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+    font-weight: bold;
+}
+
 .ck {
     position: absolute;
     top: 40%;
@@ -38,6 +55,16 @@ body {
     font-size: 100%;
     font-weight: bold;
 }
+#name_input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid white;
+    background-color: rgb(255, 255, 255, 0);
+}
+input[type=text] {
+    color: #fff;
+}
 
 .todow {
     position: absolute;
@@ -49,7 +76,7 @@ body {
 }
 .todof {
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -60,10 +87,14 @@ body {
     transform: translate(-50%, -50%);
     font-size: 50%;
 }
-#input {
-    margin-top: 10px;
+#todo_input {
     height: 10px;
     width: 200px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid white;
+    background-color: rgb(255, 255, 255, 0);
 }
 button {
     border: none;
