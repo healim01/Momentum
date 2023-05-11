@@ -25,7 +25,7 @@ body {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 150%;
+    font-size: 20px;
     font-weight: bold;
 }
 .lgf {
@@ -33,8 +33,6 @@ body {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 150%;
-    font-weight: bold;
 }
 
 .ck {
@@ -42,16 +40,17 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 300%;
+    font-size: 50px;
     font-weight: bold;
 }
 
 .gt {
+    margin-top: 5px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 100%;
+    font-size: 20px;
     font-weight: bold;
 }
 #name_input {
@@ -70,7 +69,7 @@ input[type=text] {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 80%;
+    font-size: 15px;
     font-weight: bold;
 }
 .todof {
@@ -84,7 +83,7 @@ input[type=text] {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50%;
+    font-size: 10px;
 }
 #todo_input {
     height: 10px;
