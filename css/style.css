@@ -111,7 +111,7 @@ button {
     top: 5%;
     left: 90%;
     transform: translate(-90%, -50%);
-    font-size: 1px;
+    font-size: 10px;
 }
 
 .wt {
@@ -119,5 +119,5 @@ button {
     top: 5%;
     left: 5%;
     transform: translate(-30%, -50%);
-    font-size: 1px;
+    font-size: 10px;
 }
