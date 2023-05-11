@@ -1,6 +1,6 @@
+const loginWord = document.getElementById("login-word")
 const loginForm = document.getElementById("login-form");
-const loginInput = loginForm.querySelector("input");
-const loginButton = loginForm.querySelector("button");
+const loginInput = loginForm.querySelector("#name_input");
 
 const ck = document.getElementById("clock");
 const todow = document.getElementById("todo-word");
@@ -16,9 +16,12 @@ const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
 
 function submitInput(event) {
+    console.log("submit!!!");
     event.preventDefault();
     const userName = loginInput.value;
+    console.log(userName);
     localStorage.setItem(USERNAME_KEY, userName);
+    loginWord.classList.add(HIDDEN_CLASSNAME);
     loginForm.classList.add(HIDDEN_CLASSNAME);
     paintGreeting(userName);
 }
@@ -38,6 +41,7 @@ function paintGreeting(userName) {
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
 if (savedUsername === null) {
+    loginWord.classList.remove(HIDDEN_CLASSNAME);
     loginForm.classList.remove(HIDDEN_CLASSNAME);
     loginForm.addEventListener("submit", submitInput);
 } else {
